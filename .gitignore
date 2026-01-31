@@ -1,0 +1,8 @@
+# Documentation (internal use only)
+spec/
+tasks/
+task.md
+README.md
+
+# GitHub Skills (AI agent configurations)
+.github/skills/**
