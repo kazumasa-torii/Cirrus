@@ -1,0 +1,34 @@
+# Automatically label PRs based on changed files
+
+'core':
+  - cirrus-core/**/*
+
+'spring-boot':
+  - cirrus-spring-boot-starter/**/*
+
+'gradle-plugin':
+  - cirrus-gradle-plugin/**/*
+
+'maven-plugin':
+  - cirrus-maven-plugin/**/*
+
+'cli':
+  - cirrus-cli/**/*
+
+'documentation':
+  - docs/**/*
+  - '*.md'
+  - spec/**/*
+
+'tests':
+  - '**/*Test.kt'
+  - '**/*Test.java'
+  - '**/test/**/*
+
+'ci':
+  - .github/**/*
+
+'dependencies':
+  - gradle/libs.versions.toml
+  - '**/build.gradle.kts'
+  - '**/pom.xml'
